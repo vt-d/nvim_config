@@ -46,8 +46,9 @@ return require'packer'.startup(function()
         },
     }
     use 'octol/vim-cpp-enhanced-highlight'
-    use 'https://github.com/rakr/vim-one'
-    use 'https://github.com/junegunn/seoul256.vim'
+    use 'rakr/vim-one'
+    use 'junegunn/seoul256.vim'
     use 'andweeb/presence.nvim'
+    use 'github/copilot.vim'
 end)
 
