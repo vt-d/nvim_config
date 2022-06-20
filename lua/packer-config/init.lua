@@ -1,27 +1,4 @@
 return require'packer'.startup(function()
-    use({
-        'NTBBloodbath/doom-one.nvim',
-        config = function()
-            require('doom-one').setup({
-                plugins_integrations = {
-                    neorg = true,
-                    barbar = true,
-                    bufferline = false,
-                    gitgutter = false,
-                    gitsigns = true,
-                    telescope = false,
-                    neogit = true,
-                    nvim_tree = true,
-                    dashboard = true,
-                    startify = true,
-                    whichkey = true,
-                    indent_blankline = true,
-                    vim_illuminate = true,
-                    lspsaga = false,
-                },
-            })
-        end,
-    })
     use 'junegunn/fzf'
     use 'rcarriga/nvim-notify'
     use 'onsails/lspkind-nvim'
@@ -49,6 +26,8 @@ return require'packer'.startup(function()
     use 'rakr/vim-one'
     use 'junegunn/seoul256.vim'
     use 'andweeb/presence.nvim'
-    use 'github/copilot.vim'
+    use { 'AlphaTechnolog/pywal.nvim', as = 'pywal' }
+    use 'tjdevries/colorbuddy.nvim'
+    use 'Th3Whit3Wolf/onebuddy'
 end)
 
