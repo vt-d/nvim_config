@@ -1,5 +1,4 @@
 vim.notify = require("notify")
-vim.g.nvim_tree_auto_open = 0
 require('settings')
 require('colorschemes.onebuddy')
 require('packer-config')
