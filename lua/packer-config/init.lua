@@ -13,9 +13,6 @@ return require'packer'.startup(function()
     use 'nvim-lualine/lualine.nvim'
     use 'nvim-lua/plenary.nvim'
     use 'romgrk/barbar.nvim'
-    use 'joshdick/onedark.vim'
-    use 'stevearc/dressing.nvim'
-    use 'junegunn/fzf.vim'
     use {
         'kyazdani42/nvim-tree.lua',
         requires = {
@@ -23,11 +20,17 @@ return require'packer'.startup(function()
         },
     }
     use 'octol/vim-cpp-enhanced-highlight'
-    use 'rakr/vim-one'
     use 'junegunn/seoul256.vim'
     use 'andweeb/presence.nvim'
     use { 'AlphaTechnolog/pywal.nvim', as = 'pywal' }
-    use 'tjdevries/colorbuddy.nvim'
-    use 'Th3Whit3Wolf/onebuddy'
+    use 'monsonjeremy/onedark.nvim'
+    use 'rust-lang/rust.vim'
+    use 'nvim-telescope/telescope.nvim'
+    use 'glepnir/dashboard-nvim'
+    use {'akinsho/toggleterm.nvim', tag = 'v2.*', config = function()
+        require('toggleterm').setup()
+    end}
+    use 'romgrk/doom-one.vim'
+    use { 'catppuccin/nvim', as = "catppuccin" }
 end)
 

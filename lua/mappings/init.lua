@@ -42,6 +42,14 @@ map('n', '<Space>bb', ':BufferOrderByBufferNumber<CR>', opts)
 map('n', '<Space>bd', ':BufferOrderByDirectory<CR>', opts)
 map('n', '<Space>bl', ':BufferOrderByLanguage<CR>', opts)
 
+
 -- Other:
 -- :BarbarEnable - enables barbar (enabled by default)
--- :BarbarDisable - very bad command, should never be used
+-- :BarbarDisable - veryvery bad command, should never be used
+
+map('n','<Space>ff', ':Telescope find_files<CR>', opts)
+map('n','<Space>fg', ':Telescope live_grep<CR>', opts)
+map('n','<Space>fh', ':Telescope help_tags<CR>', opts)
+
+map('n', '<Space>t', ':ToggleTerm size=50 direction=vertical<CR>', opts)
+
