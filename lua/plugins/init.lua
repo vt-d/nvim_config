@@ -1,0 +1,5 @@
+require("plugins.packer")
+require("plugins.barbar")
+require("plugins.dashboard")
+require("plugins.lualine")
+require("plugins.nvimtree")

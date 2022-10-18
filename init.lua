@@ -1,10 +1,8 @@
-vim.notify = require("notify")
-require('settings')
-require('colorschemes.catppuccin')
-require('packer-config')
-require('mappings')
-require('lsp-config-config.lsp')
-require('lsp-config-config.completion')
-require('lualine-config')
-require('nvim-tree-config')
-require('dashboard-config')
+vim.notify = require('notify')
+vim.g.pydocstring_doq_path = '/home/vt/.local/bin/doq'
+vim.g.pydocstring_formatter = 'numpy'
+
+require('colorscheme')
+require('lsp')
+require('plugins')
+require('core')

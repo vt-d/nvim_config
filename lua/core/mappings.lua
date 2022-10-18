@@ -7,7 +7,6 @@ local opts = {noremap = true, silent = true}
 map('n', '<leader>ps', ':PackerSync <CR>', opts)
 -- Nvim-Tree
 map('n', '<Space>n', ":NvimTreeToggle<CR>", opts)
-vim.api.nvim_set_keymap("i", "<C-J>", 'copilot#Accept("<CR>")', { silent = true, expr = true })
 -- Write
 map('n', 'ZS', ':w<cr>', opts)
 -- Move to previous/next

@@ -32,5 +32,7 @@ return require'packer'.startup(function()
     end}
     use 'romgrk/doom-one.vim'
     use { 'catppuccin/nvim', as = "catppuccin" }
+    use { 'Everblush/everblush.nvim', as = 'everblush' }
+    use 'heavenshell/vim-pydocstring'
 end)
 
