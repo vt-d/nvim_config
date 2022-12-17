@@ -29,4 +29,4 @@ vim.opt.fillchars = {
     eob = " ", -- suppress ~ at EndOfBuffer
 }
 
-set.guifont = "FiraCode Nerd Font:h7"
+set.guifont = "FiraCode Nerd Font:10"
